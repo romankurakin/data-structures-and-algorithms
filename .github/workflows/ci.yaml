@@ -1,0 +1,45 @@
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  codecov:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout the repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          ref: ${{ github.event.pull_request.head.sha }}
+      - name: Conventional commit check
+        uses: cocogitto/cocogitto-action@v3
+      - name: Install Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: 3.12
+      - name: Install Poetry
+        uses: snok/install-poetry@v1
+        with:
+          virtualenvs-create: true
+          virtualenvs-in-project: true
+      - name: Load cached venv
+        id: cached-poetry-dependencies
+        uses: actions/cache@v3
+        with:
+          path: .venv
+          key: venv-${{ runner.os }}-${{ steps.setup-python.outputs.python-version }}-${{ hashFiles('**/poetry.lock') }}
+      - name: Install dependencies
+        if: steps.cached-poetry-dependencies.outputs.cache-hit != 'true'
+        run: poetry install --no-interaction --no-root
+      - name: Install library
+        run: poetry install --no-interaction
+      - name: Run Ruff linter
+        run: poetry run ruff check --show-files
+      - name: Test with pytest
+        run: poetry run pytest --cov-report=xml --cov -v
+      # - name: Upload coverage
+      #   uses: codecov/codecov-action@v3
+      #   with:
+      #     file: ./coverage.xml
+      #     fail_ci_if_error: true
