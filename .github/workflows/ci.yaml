@@ -1,12 +1,10 @@
-name: CI
-
 on:
   push:
     branches:
       - master
 
 jobs:
-  codecov:
+  ci:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout the repository
