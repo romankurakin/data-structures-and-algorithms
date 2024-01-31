@@ -38,8 +38,8 @@ jobs:
         run: poetry run ruff check --show-files
       - name: Test with pytest
         run: poetry run pytest --cov-report=xml --cov -v
-      # - name: Upload coverage
-      #   uses: codecov/codecov-action@v3
-      #   with:
-      #     file: ./coverage.xml
-      #     fail_ci_if_error: true
+      - name: Upload coverage
+        uses: codecov/codecov-action@v3
+        with:
+          file: ./coverage.xml
+          fail_ci_if_error: true
