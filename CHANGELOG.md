@@ -2,6 +2,12 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## [0.1.1](https://github.com/romankurakin/data-structures-and-algorithms/compare/0.1.0..0.1.1) - 2024-02-05
+#### Bug Fixes
+- use default_repetitions in task 6 - ([755d2bf](https://github.com/romankurakin/data-structures-and-algorithms/commit/755d2bfb96040a843845016e2a66ff4706699418)) - [@romankurakin](https://github.com/romankurakin)
+
+- - -
+
 ## [0.1.0](https://github.com/romankurakin/data-structures-and-algorithms/compare/733defce817340daec052668b6172ede23bcfad0..0.1.0) - 2024-02-02
 #### Continuous Integration
 - add name to workflow - ([8e32e51](https://github.com/romankurakin/data-structures-and-algorithms/commit/8e32e513c79b07233c92fdbcda6441f86c645eea)) - [@romankurakin](https://github.com/romankurakin)
