@@ -44,6 +44,14 @@ def test_linked_list_search():
     assert ll.search(3) is False
 
 
+def test_ordered_list_search_non_existent():
+    ol = OrderedList()
+    ol.add(1)
+    ol.add(3)
+    ol.add(5)
+    assert ol.search(4) is False
+
+
 def test_linked_list_reverse():
     ll = LinkedList()
     ll.append(1)
