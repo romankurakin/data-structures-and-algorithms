@@ -2,6 +2,15 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## [0.2.0](https://github.com/romankurakin/data-structures-and-algorithms/compare/0.1.1..0.2.0) - 2024-02-08
+#### Bug Fixes
+- cover early False in search in ordered list - ([2bc4c64](https://github.com/romankurakin/data-structures-and-algorithms/commit/2bc4c640b7698e389ab9e2ac37ac6a801cbb4bca)) - [@romankurakin](https://github.com/romankurakin)
+- rewrite out of index get - ([7b52170](https://github.com/romankurakin/data-structures-and-algorithms/commit/7b52170b83328e41bd5215ab02dacf65f2bb421a)) - [@romankurakin](https://github.com/romankurakin)
+#### Features
+- implement linked list and ordered version - ([f5b9aa9](https://github.com/romankurakin/data-structures-and-algorithms/commit/f5b9aa98027f5692c30f857b2d46be67d1b975d4)) - [@romankurakin](https://github.com/romankurakin)
+
+- - -
+
 ## [0.1.1](https://github.com/romankurakin/data-structures-and-algorithms/compare/0.1.0..0.1.1) - 2024-02-05
 #### Bug Fixes
 - use default_repetitions in task 6 - ([755d2bf](https://github.com/romankurakin/data-structures-and-algorithms/commit/755d2bfb96040a843845016e2a66ff4706699418)) - [@romankurakin](https://github.com/romankurakin)
