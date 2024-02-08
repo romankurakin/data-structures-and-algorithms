@@ -38,10 +38,10 @@ class BaseList:
 
     def get(self, index):
         """Return the element at the given index."""
+        if index < 0 or index >= self.size:
+            raise IndexError("Index out of range")
         current_node = self.head
         for _ in range(index):
-            if current_node is None:
-                raise IndexError("Index out of range")
             current_node = current_node.next
         return current_node.data
 

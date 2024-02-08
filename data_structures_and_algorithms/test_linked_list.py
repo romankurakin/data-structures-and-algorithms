@@ -1,4 +1,14 @@
 from linked_list import LinkedList, OrderedList
+import pytest
+
+
+def test_linked_get_index_out_of_range():
+    ll = LinkedList()
+    ll.append(1)
+    ll.append(2)
+
+    with pytest.raises(IndexError):
+        ll.get(2)
 
 
 def test_linked_list_append_and_get():
@@ -68,6 +78,10 @@ def test_ordered_list_max_min():
     ol.add(2)
     assert ol.max() == 3
     assert ol.min() == 1
+
+    empty_ol = OrderedList()
+    assert empty_ol.max() is None
+    assert empty_ol.min() is None
 
 
 def test_ordered_list_search():
