@@ -2,6 +2,20 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## [0.3.0](https://github.com/romankurakin/data-structures-and-algorithms/compare/0.2.0..0.3.0) - 2024-02-11
+#### Continuous Integration
+- add token to codecov - ([c952ebd](https://github.com/romankurakin/data-structures-and-algorithms/commit/c952ebdde2c2198d40b9d89ec20e6fb1998c78fb)) - [@romankurakin](https://github.com/romankurakin)
+#### Documentation
+- add basic decryption in readme - ([3c04068](https://github.com/romankurakin/data-structures-and-algorithms/commit/3c040688e9fdae67f440f6b64ea6e38b1cf49fcb)) - [@romankurakin](https://github.com/romankurakin)
+#### Features
+- commit result plots in introduction notebook - ([d5df2ab](https://github.com/romankurakin/data-structures-and-algorithms/commit/d5df2abaec014917146c3d264cd738e239c5b4b0)) - [@romankurakin](https://github.com/romankurakin)
+#### Miscellaneous Chores
+- **(deps)** update codecov/codecov-action action to v4 - ([2ee26d3](https://github.com/romankurakin/data-structures-and-algorithms/commit/2ee26d3bbc2fc26a9d181f7e84d7bbc6e8f418e0)) - renovate[bot]
+- **(deps)** update actions/cache action to v4 - ([fe27539](https://github.com/romankurakin/data-structures-and-algorithms/commit/fe275395c67dfc075693d637fa9ad8bf40d24fca)) - renovate[bot]
+- add renovate.json - ([1585a3e](https://github.com/romankurakin/data-structures-and-algorithms/commit/1585a3e5c5ecece756268a3a825d1992130f203c)) - renovate[bot]
+
+- - -
+
 ## [0.2.0](https://github.com/romankurakin/data-structures-and-algorithms/compare/0.1.1..0.2.0) - 2024-02-08
 #### Bug Fixes
 - cover early False in search in ordered list - ([2bc4c64](https://github.com/romankurakin/data-structures-and-algorithms/commit/2bc4c640b7698e389ab9e2ac37ac6a801cbb4bca)) - [@romankurakin](https://github.com/romankurakin)
