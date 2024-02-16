@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "data-structures-and-algorithms"
-version = "0.3.0"
+version = "0.4.0"
 description = "This project is a collection of data structures and algorithms implemented in Python"
 authors = ["Roman Kurakin"]
 repository = "https://github.com/romankurakin/data-structures-and-algorithms"

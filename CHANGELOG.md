@@ -2,6 +2,19 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## [0.4.0](https://github.com/romankurakin/data-structures-and-algorithms/compare/0.3.0..0.4.0) - 2024-02-16
+#### Bug Fixes
+- **(deps)** update dependency matplotlib to v3.8.3 - ([065c5e2](https://github.com/romankurakin/data-structures-and-algorithms/commit/065c5e28060f778f44f41a7cbfcf28f12db65069)) - renovate[bot]
+- **(deps)** update dependency notebook to v7.1.0 - ([32d5a9a](https://github.com/romankurakin/data-structures-and-algorithms/commit/32d5a9a23a42e8efc2b448feaf884fbcfeeb9b1c)) - renovate[bot]
+#### Features
+- add bubble_sort, insertion_sort, selection_sort - ([5ace2f9](https://github.com/romankurakin/data-structures-and-algorithms/commit/5ace2f99cf9f1c00768187ec2bbabd6ea430488e)) - [@romankurakin](https://github.com/romankurakin)
+- commit result plots in introduction notebook - ([b62c3d3](https://github.com/romankurakin/data-structures-and-algorithms/commit/b62c3d3c73e5f79f8eb3d87c302af1e18453f666)) - [@romankurakin](https://github.com/romankurakin)
+#### Miscellaneous Chores
+- **(deps)** update dependency pre-commit to v3.6.1 - ([c12e8ac](https://github.com/romankurakin/data-structures-and-algorithms/commit/c12e8ace1871e91e731b421177d56cf29efd2299)) - renovate[bot]
+- **(version)** 0.3.0 - ([82266b5](https://github.com/romankurakin/data-structures-and-algorithms/commit/82266b5268f863e5a2ebb4ce57a68300dbced344)) - [@romankurakin](https://github.com/romankurakin)
+
+- - -
+
 ## [0.3.0](https://github.com/romankurakin/data-structures-and-algorithms/compare/0.2.0..0.3.0) - 2024-02-11
 #### Continuous Integration
 - add token to codecov - ([c952ebd](https://github.com/romankurakin/data-structures-and-algorithms/commit/c952ebdde2c2198d40b9d89ec20e6fb1998c78fb)) - [@romankurakin](https://github.com/romankurakin)
