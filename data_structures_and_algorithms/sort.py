@@ -1,5 +1,10 @@
 def bubble_sort(arr):
-    """Sort the given list using the bubble sort algorithm."""
+    """Sort the given list using the bubble sort algorithm.
+    Best case: O(n)
+    Average case: O(n^2)
+    Worst case: O(n^2)
+    """
+
     n = len(arr)
     if n <= 1:
         return arr
@@ -11,7 +16,11 @@ def bubble_sort(arr):
 
 
 def insertion_sort(arr):
-    """Sort the given list using the insertion sort algorithm."""
+    """Sort the given list using the insertion sort algorithm.
+    Best case: O(n)
+    Average case: O(n^2)
+    Worst case: O(n^2)
+    """
     n = len(arr)
     if n <= 1:
         return arr
@@ -26,7 +35,11 @@ def insertion_sort(arr):
 
 
 def selection_sort(arr):
-    """Sort the given list using the selection sort algorithm."""
+    """Sort the given list using the selection sort algorithm.
+    Best case: O(n^2)
+    Average case: O(n^2)
+    Worst case: O(n^2)
+    """
     n = len(arr)
     for i in range(n):
         min_index = i
@@ -38,7 +51,11 @@ def selection_sort(arr):
 
 
 def merge_sort(arr):
-    """Sort the given list using the merge sort algorithm."""
+    """Sort the given list using the merge sort algorithm.
+    Best case: O(n log n)
+    Average case: O(n log n)
+    Worst case: O(n log n)
+    """
 
     def merge(left, right):
         result = []
