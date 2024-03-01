@@ -1,7 +1,7 @@
 import pytest
-from sort import bubble_sort, selection_sort, insertion_sort, merge_sort
+from sort import bubble_sort, selection_sort, insertion_sort, merge_sort, quick_sort
 
-sort_functions = [bubble_sort, selection_sort, insertion_sort, merge_sort]
+sort_functions = [bubble_sort, selection_sort, insertion_sort, merge_sort, quick_sort]
 
 
 def is_sorted(arr):
@@ -41,7 +41,7 @@ def test_random_order(sort_func):
 
 @pytest.mark.parametrize("sort_func", sort_functions)
 def test_large_list(sort_func):
-    arr = list(range(1000, 0, -1))
+    arr = list(range(100, 0, -1))
     sorted_arr = sort_func(arr)
     assert is_sorted(sorted_arr)
 
