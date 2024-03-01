@@ -2,6 +2,28 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## [0.5.0](https://github.com/romankurakin/data-structures-and-algorithms/compare/0.4.1..0.5.0) - 2024-03-01
+#### Bug Fixes
+- **(deps)** update dependency notebook to v7.1.1 - ([d345cf9](https://github.com/romankurakin/data-structures-and-algorithms/commit/d345cf92543dedf511e60cb0f966f4863b210b38)) - renovate[bot]
+- **(deps)** update dependency ipykernel to v6.29.3 - ([7e1ccc6](https://github.com/romankurakin/data-structures-and-algorithms/commit/7e1ccc69b2bb56c470817c22506aa741382cf5be)) - renovate[bot]
+- **(deps)** update dependency nbconvert to v7.16.1 - ([cf6ef4f](https://github.com/romankurakin/data-structures-and-algorithms/commit/cf6ef4fe8ce323fa8a901d496a878c59b7afe9f3)) - renovate[bot]
+- set default_repetitions for sorting - ([f572ad3](https://github.com/romankurakin/data-structures-and-algorithms/commit/f572ad35edfd76a1619a9a59d503c04f48a53152)) - [@romankurakin](https://github.com/romankurakin)
+#### Documentation
+- add search complexity description - ([c7d6c14](https://github.com/romankurakin/data-structures-and-algorithms/commit/c7d6c14d3a040959d97e0977778ff556fa9ba9b3)) - [@romankurakin](https://github.com/romankurakin)
+- add list of content - ([0d5e54a](https://github.com/romankurakin/data-structures-and-algorithms/commit/0d5e54a4466afa53b2b61d1b847bc020b56cee94)) - [@romankurakin](https://github.com/romankurakin)
+#### Features
+- add sorting nb - ([22d81fb](https://github.com/romankurakin/data-structures-and-algorithms/commit/22d81fb8cc1111106cbcb68ab7061472cbaf2eee)) - [@romankurakin](https://github.com/romankurakin)
+#### Miscellaneous Chores
+- **(deps)** update dependency ruff to ^0.3.0 - ([7d512cb](https://github.com/romankurakin/data-structures-and-algorithms/commit/7d512cb418b059e0304f9a11a6329960cc1f001b)) - renovate[bot]
+- **(deps)** set package-mode - ([e6e9dec](https://github.com/romankurakin/data-structures-and-algorithms/commit/e6e9dec50f80180793a2142801fe82a50ff5c04a)) - [@romankurakin](https://github.com/romankurakin)
+- **(deps)** update dependency pytest to v8.0.2 - ([c8b0f3f](https://github.com/romankurakin/data-structures-and-algorithms/commit/c8b0f3f2ef657adb415b21dc9b76c8f62867dd75)) - renovate[bot]
+- **(deps)** update dependency pre-commit to v3.6.2 - ([3614425](https://github.com/romankurakin/data-structures-and-algorithms/commit/36144255c683696e7513293beb87831307c3a031)) - renovate[bot]
+- **(deps)** update dependency ruff to v0.2.2 - ([5dd2d04](https://github.com/romankurakin/data-structures-and-algorithms/commit/5dd2d04baf7613943e4065cf7ed90c411aeb9dd4)) - renovate[bot]
+- **(deps)** update dependency pytest to v8.0.1 - ([8bc5e73](https://github.com/romankurakin/data-structures-and-algorithms/commit/8bc5e73339949cc8a516240ea13aa62922918919)) - renovate[bot]
+- **(version)** 0.4.0 - ([3d4307b](https://github.com/romankurakin/data-structures-and-algorithms/commit/3d4307b44a5c44575b6a1f06159dc3527eb57346)) - [@romankurakin](https://github.com/romankurakin)
+
+- - -
+
 ## [0.5.0](https://github.com/romankurakin/data-structures-and-algorithms/compare/0.4.0..0.5.0) - 2024-03-01
 #### Bug Fixes
 - **(deps)** update dependency notebook to v7.1.1 - ([d345cf9](https://github.com/romankurakin/data-structures-and-algorithms/commit/d345cf92543dedf511e60cb0f966f4863b210b38)) - renovate[bot]
